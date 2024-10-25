@@ -1,0 +1,119 @@
+.attribution { font-size: 11px; text-align: center;  margin-top: 2rem;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+body {
+  box-sizing: border-box;
+  margin: 3rem 2.9rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.omelet {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 1.5rem;
+}
+
+.container-1 h1{
+    font-family: "Young Serif";
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.container-1 p {
+    font-family: 'Outfit';
+    font-size: 1.3rem;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    color: hsl(332, 51%, 32%);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.prep-time h2 {
+    font-family: 'Outfit';
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.prep-time b {
+    margin-left: 1rem;
+}
+
+.prep-time li {
+    font-family: "Outfit";
+    margin-bottom: 1.3rem;
+}
+
+.ingrid h2 , .container-2 h2{
+    font-family: 'Young Serif';
+    font-size: 2rem;
+    font-weight: 300;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingrid li, .container-2 li{
+    font-family: 'Outfit';
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding: 0rem 1rem;
+    color: hsl(24, 5%, 18%);
+}
+
+.hrline {
+    margin-top: 2rem;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    width: 100%;
+}
+
+.container-3 p{
+    font-family: "Outfit";
+    font-size: 1.2rem;
+}
+
+span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    color: #000;
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .container {
+        margin: 1rem 2rem;
+    }
+
+    .omelet {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+
+    .container-1 h1 {
+        font-size: 2rem;
+    }
+}
